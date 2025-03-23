@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="bg-red-500 h-96" style="background-image: url(image.png);">
+        Background in Tailwind CSS
+    </div>
+
+    <!-- <div class="bg-red-500 h-96 bg-[url(image.png)] bg-no-repeat bg-center bg-cover"> -->
+    <div class="bg-blue-500 h-96 bg-[url(image.png)] bg-no-repeat bg-center bg-contain">
+        Background in Tailwind CSS
+    </div>
+
+    <div class="flex">
+        <div class="gradient bg-gradient-to-t to-blue-500 from-red-500 size-96"></div>
+        <div class="gradient bg-gradient-to-b to-blue-500 from-red-500 size-96"></div>
+        <div class="gradient bg-gradient-to-l to-blue-500 from-red-500 size-96"></div>
+        <div class="gradient bg-gradient-to-r to-blue-500 from-red-500 size-96"></div>
+        <div class="gradient bg-gradient-to-tl to-blue-500 from-red-500 size-96"></div>
+        <div class="gradient bg-gradient-to-br to-blue-500 from-red-500 size-96"></div>
+    </div>
+
+    <div class="flex">
+        <div class="size-96 m-32 shadow-red-400 shadow-2xl"></div>
+        <div class="size-96 m-32 shadow-inner shadow-red-400"></div>
+    </div>
+
+</body>
+
+</html>
