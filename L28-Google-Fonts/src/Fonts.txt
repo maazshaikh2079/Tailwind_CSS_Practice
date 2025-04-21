@@ -1,0 +1,65 @@
+PT Sans
+Nunito
+Roboto
+Iceland
+Orbitron
+Oxanium
+Borel
+Delius Swash Caps
+DM Mono
+JetBrains Mono
+
+
+PT sans:
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+css:
+--FONT-FAMILY: "PT sans", sans-serif;
+t-css:
+@theme {
+--font-pt-sans: "PT sans", "sans-serif";
+}
+
+Oxanium:
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap');
+css:
+--FONT-FAMILY: "Oxanium", sans-serif;
+t-css:
+@theme {
+--font-oxanium: "Oxanium", "sans-serif";
+}
+
+Borel:
+@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+css:
+--FONT-FAMILY: "Borel", cursive;
+t-css:
+@theme {
+--font-borel: "Borel", "cursive";
+}
+
+Delius Swash Caps:
+@import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&display=swap');
+css:
+--FONT-FAMILY: "Delius Swash Caps", cursive;
+t-css:
+@theme {
+--font-delius-swash-caps: "Delius Swash Caps", "cursive";
+}
+
+DM Mono:
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+css:
+--FONT-FAMILY: "DM Mono", monospace;
+t-css:
+@theme {
+--font-dm-mono: "DM Mono", "monospace";
+}
+
+JetBrains Mono:
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+css:
+--FONT-FAMILY: "JetBrains Mono", monospace;
+t-css:
+@theme {
+--font-jetbrains-mono: "JetBrains Mono", "monospace";
+}

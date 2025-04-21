@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+/* vanilla css */
+/* @layer base {
+    h1 {
+        font-size: 50px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    h2 {
+        font-size: 40px
+    }
+    h3 {
+        font-size: 30px
+    }
+    button {
+        border: 1px solid pink;
+    }
+} */
+
+/* tailwindcss */
+@layer base {
+    h1 {
+        @apply text-7xl font-serif;
+    }
+    h2 {
+        @apply text-6xl;
+    }
+    h3 {
+        @apply text-5xl;
+    }
+    button {
+        @apply text-2xl pl-2 pr-2;
+        @apply border border-pink-400 rounded-md;
+        @apply hover:rotate-360 transition duration-1500;
+    }
+    body {
+        @apply dark:bg-neutral-800 dark:text-white;
+    }
+
+}

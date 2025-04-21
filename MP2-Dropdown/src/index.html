@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MP2-Dropdown</title>
+    <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="./input.css">
+</head>
+
+<body class="dark:bg-neutral-800 dark:text-white ">
+
+    <!--Note: Uncomment comments with border to understand inline-block and inline property of elements (i.e divs) given below-->
+
+    <!-- <div class="border inline-block group m-20"> -->
+    <div class="inline-block group m-20">
+
+        <!-- <div class="border inline text-2xl cursor-pointer text-blue-600 hover:text-blue-500 dark:text-blue-300 dark:hover:text-blue-400 "> -->
+        <div
+            class="inline text-2xl cursor-pointer text-blue-600 hover:text-blue-500 dark:text-blue-300 dark:hover:text-blue-400 ">
+            City List
+        </div>
+
+        <div class="hidden group-hover:block text-1xl mt-1 p-1 pl-2 w-35 rounded-md bg-gray-200 dark:bg-neutral-900">
+            <ul class="[&>*]:hover:text-blue-500 [&>*]:dark:hover:text-blue-400">
+                <li><a href="#Mumbai">Mumbai</a></li>
+                <li><a href="#Pune">Pune</a></li>
+                <li><a href="#Delhi">Delhi</a></li>
+                <li><a href="#Gurgaon">Gurugram</a></li>
+                <li><a href="#Bengaluru">Bengaluru</a></li>
+                <li><a href="#Puducherry">Puducherry</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

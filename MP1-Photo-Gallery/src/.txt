@@ -1,0 +1,20 @@
+<!--
+<body class="dark:bg-neutral-800 dark:text-white">
+
+    <div class="container mx-auto mt-10 flex flex-wrap gap-4">
+        <img class="w-80 rounded border-2 border-blue-300 hover:scale-110 transition duration-1000 hover:brightness-150"
+            src="./images/default_pfp.png" alt="default_pfp">
+        <img class="w-80 rounded border-2 border-blue-300 hover:scale-110 transition duration-1000 hover:brightness-150"
+            src="./images/default_pfp.png" alt="default_pfp">
+        <img class="w-80 rounded border-2 border-blue-300 hover:scale-110 transition duration-1000 hover:brightness-150"
+            src="./images/default_pfp.png" alt="default_pfp">
+        <img class="w-80 rounded border-2 border-blue-300 hover:scale-110 transition duration-1000 hover:brightness-150"
+            src="./images/default_pfp.png" alt="default_pfp">
+        <img class="w-80 rounded border-2 border-blue-300 hover:scale-110 transition duration-1000 hover:brightness-150"
+            src="./images/default_pfp.png" alt="default_pfp">
+        <img class="w-80 rounded border-2 border-blue-300 hover:scale-110 transition duration-1000 hover:brightness-150"
+            src="./images/default_pfp.png" alt="default_pfp">
+    </div>
+
+</body>
+-->

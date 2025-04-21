@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@layer components {
+    .gallery-img {
+        @apply w-80 rounded border-2 border-blue-300 hover:scale-110 hover:brightness-150 hover:border-amber-600 transition duration-1000;
+    }
+}

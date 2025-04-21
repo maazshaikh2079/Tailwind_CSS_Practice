@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+@import "tailwindcss";
+
+@theme {
+    --font-pt-sans: "PT sans", "sans-serif";
+    --font-oxanium: "Oxanium", "sans-serif";
+    --font-dm-mono: "DM Mono", "monospace";
+    --font-jetbrains-mono: "JetBrains Mono", "monospace";
+    --font-delius-swash-caps: "Delius Swash Caps", "cursive";
+    --font-borel: "Borel", "cursive";
+}
