@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P1-Google-UI-Clone</title>
+    <link rel="shortcut icon" href="https://www.google.com/images/branding/googleg/1x/googleg_standard_color_128dp.png">
+    <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="./input.css">
+</head>
+
+<!-- <body class="dark:bg-neutral-800 dark:text-white"> -->
+
+<body>
+
+    <header class="flex justify-between text-[14px] p-[6px]">
+        <div class="flex p-4 text-center ">
+            <div class="flex space-x-4">
+                <a href="#About" class="text-[14px] text-neutral-900 hover:underline">About</a>
+                <a href="#Store" class="text-[14px] text-neutral-900 hover:underline">Store</a>
+            </div>
+        </div>
+        <div class="flex p-4 text-center ">
+            <div class="flex space-x-4">
+                <a href="#Gmail" class="text-[13px] text-neutral-900 hover:underline">Gmail</a>
+                <a href="#Images" class="text-[13px] text-neutral-900 hover:underline">Images</a>
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                    fill="#e3e3e3">
+                    <path
+                        d="M200-120q-51 0-72.5-45.5T138-250l222-270v-240h-40q-17 0-28.5-11.5T280-800q0-17 11.5-28.5T320-840h320q17 0 28.5 11.5T680-800q0 17-11.5 28.5T640-760h-40v240l222 270q32 39 10.5 84.5T760-120H200Zm80-120h400L544-400H416L280-240Zm-80 40h560L520-492v-268h-80v268L200-200Zm280-280Z" />
+                </svg> -->
+                <img src="./assets/icons/experimen_light.svg" alt="">
+                <!-- <img src="./assets/icons/experimen_dark.svg" alt=""> -->
+                <img src="./assets/icons/apps_light.svg" alt="">
+                <!-- <img src="./assets/icons/apps_dark.svg" alt=""> -->
+                <img src="./assets/icons/account_circle_light.svg" alt="">
+                <!-- <img src="./assets/icons/account_circle_dark.svg" alt=""> -->
+            </div>
+        </div>
+    </header>
+
+    <main class="flex items-center justify-center flex-col">
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="">
+        <div class="w-full p-[20px]  flex items-center justify-center flex-col">
+            <div class="w-full max-h-[160px] max-w-xl">
+                <div class="relative">
+                    <input type="text" class="w-full bg-gray-100 rounded-full py-3 h-[52px]">
+                    <img class="absolute left-4 top-3.5" src="./assets/icons/search_light.svg" alt="">
+                    <!-- <img class="absolute left-4 top-3.5" src="./assets/icons/search_dark.svg" alt=""> -->
+                    <img class="absolute right-14 top-3.5" src="./assets/icons/mic_light.svg" alt="">
+                    <!-- <img class="absolute right-14 top-3.5" src="./assets/icons/mic_dark.svg" alt=""> -->
+                    <img class="absolute right-4 top-3.5" src="./assets/icons/center_focus_weak_light.svg" alt="">
+                    <!-- <img class="absolute right-4 top-3.5" src="./assets/icons/center_focus_weak_dark.svg" alt=""> -->
+                </div>
+            </div>
+            <div class="flex justify-center pt-[18px]">
+                <button
+                    class="mt-[11px] mx-[6px] bg-gray-100 hover:bg-gray-200 text-gray-700 rounded py-[6px] px-4">Google
+                    Search</button>
+                <button class="mt-[11px] mx-[6px] bg-gray-100 hover:bg-gray-200 text-gray-700 rounded py-[6px] px-4">I'm
+                    Feeling
+                    Lucky</button>
+            </div>
+        </div>
+        <div class="flex justify-between text-[14px]">
+            <div class="flex p-4 text-center justify-start flex-col sm:flex-row">
+                <span class="text-nowrap mr-4 mb-2.5">Google offered in:</span>
+                <div class="flex flex-wrap space-x-4">
+                    <div class="flex flex-wrap justify-center items-center space-x-4">
+                        <a href="#हिन्दी" class="text-blue-700 hover:underline">हिन्दी</a>
+                        <a href="#বাংলা" class="text-blue-700 hover:underline">বাংলা</a>
+                        <a href="#తెలుగు" class="text-blue-700 hover:underline">తెలుగు</a>
+                        <a href="#मराठी" class="text-blue-700 hover:underline">मराठी</a>
+                        <a href="#தமிழ்" class="text-blue-700 hover:underline">தமிழ்</a>
+                        <a href="#ગુજરાતી" class="text-blue-700 hover:underline">ગુજરાતી</a>
+                        <a href="#ಕನ್ನಡ" class="text-blue-700 hover:underline">ಕನ್ನಡ</a>
+                        <a href="#മലയാളം" class="text-blue-700 hover:underline">മലയാളം</a>
+                        <a href="#ਪੰਜਾਬੀ" class="text-blue-700 hover:underline">ਪੰਜਾਬੀ</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-gray-100 absolute bottom-0 w-full text-gray-700 px-5">
+        <div>
+            <div class="border-b border-gray-200 py-2 text-[15px]">India</div>
+            <div class="flex flex-col sm:flex-row justify-center items-center sm:justify-between py-3 text-[14px]">
+                <ul class="flex flex-wrap space-x-4">
+                    <li><a href="#Advertising" class="hover:underline">Advertising</a></li>
+                    <li><a href="#Businesses" class="hover:underline">Businesses</a></li>
+                    <li><a href="#How Search Works" class="text-nowrap hover:underline">How Search Works</a></li>
+                </ul>
+                <ul class="flex flex-wrap space-x-4">
+                    <li><a href="#Privacy" class="hover:underline">Privacy</a></li>
+                    <li><a href="#Terms" class="hover:underline">Terms</a></li>
+                    <li><a href="#Settings" class="hover:underline">Settings</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

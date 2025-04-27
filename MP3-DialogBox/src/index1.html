@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MP3-Dialog-Box</title>
+    <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="./input.css">
+</head>
+
+<body>
+
+    <div class="bg-gray-600 fixed inset-0 font-oxanium">
+        <!-- <div class="fixed inset-0 font-oxanium"> -->
+        <div class="border flex h-full justify-center items-center">
+            <div class="bg-white w-[512px] text-left shadow-xl rounded relative">
+                <div class="p-5">
+                    <div class="flex items-start">
+                        <div>
+                            <img class="w-22" src="./icons/warning_128px.png" alt="warning_128px.png">
+                        </div>
+                        <div class="ml-4">
+                            <h3 class="font-semibold">Deactive Account</h3>
+                            <div class="m-2">
+                                <p class="text-gray-800 text-sm">
+                                    Are you sure you want to deactivate
+                                    your
+                                    account? All
+                                    of your
+                                    data will be permanently
+                                    removed. This action cannot be undone.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="bg-gray-100 px-4 py-3 rounded-b flex flex-row-reverse">
+                    <button
+                        class="font-semibold bg-red-600 text-white ml-3 rounded px-2 py-1 hover:bg-red-500">Deactivate</button>
+                    <button
+                        class="font-semibold bg-white rounded px-2 py-1 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-100">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
